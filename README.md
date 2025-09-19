@@ -24,5 +24,6 @@ Slider ini menampilkan beberapa platform media sosial populer seperti **YouTube,
  * Ubah link di tombol agar sesuai dengan akun sosial media kamu.
 
 # 📄 Lisensi
-
-Proyek ini dilisensikan dengan Apache-2.0
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
