@@ -17,8 +17,12 @@ Slider ini menampilkan beberapa platform media sosial populer seperti **YouTube,
 # 🛠️ Teknologi
  ┣ HTML5
  ┣ CSS3 (Flexbox, Transform, Transition)
- ┣ JavaScript (DOM Manipulation)
+ ┣ JavaScript
 
 # 📌 Catatan
  * Kamu bisa menambahkan lebih banyak kartu sosial media sesuai kebutuhan.
  * Ubah link di tombol agar sesuai dengan akun sosial media kamu.
+
+# 📄 Lisensi
+
+Proyek ini dilisensikan dengan Apache-2.0
