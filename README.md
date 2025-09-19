@@ -1,5 +1,24 @@
-Gabut doang sih bang
+# 🌐 Social Media 3D Carousel Slider
 
-Kalau mau pakai boleh dah 
+Proyek ini adalah implementasi **3D Carousel Slider** sederhana menggunakan HTML, CSS, dan JavaScript.  
+Slider ini menampilkan beberapa platform media sosial populer seperti **YouTube, Instagram, Twitter, TikTok, X, Github, dan Saweria** dengan animasi interaktif.
 
-#JanganLupaBahagia!
+## ✨ Fitur
+- 🎞️ Carousel 3D dengan efek card rotation  
+- ⏪ Navigasi tombol **Prev / Next**  
+- 📱 Responsive dan ringan  
+- 🔗 Tombol menuju link masing-masing sosial media  
+
+# 📂 Struktur Project
+ ┣ 📜 index.html
+ ┣ 📜 style.css
+ ┣ 📜 script.js
+
+# 🛠️ Teknologi
+ ┣ HTML5
+ ┣ CSS3 (Flexbox, Transform, Transition)
+ ┣ JavaScript (DOM Manipulation)
+
+# 📌 Catatan
+ * Kamu bisa menambahkan lebih banyak kartu sosial media sesuai kebutuhan.
+ * Ubah link di tombol agar sesuai dengan akun sosial media kamu.
