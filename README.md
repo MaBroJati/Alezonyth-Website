@@ -1,5 +1,4 @@
 # 🌐 Social Media 3D Carousel Slider
-
 Proyek ini adalah implementasi **3D Carousel Slider** sederhana menggunakan HTML, CSS, dan JavaScript.  
 Slider ini menampilkan beberapa platform media sosial populer seperti **YouTube, Instagram, Twitter, TikTok, X, Github, dan Saweria** dengan animasi interaktif.
 
