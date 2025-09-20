@@ -7,6 +7,15 @@
 body{
   background: #ccc6c6;
   overflow: hidden;
+  width: 1000px; /* Force desktop width */
+  min-width: 1000px; /* Prevent shrinking */
+}
+
+/* Force desktop layout on mobile */
+html {
+  width: 1000px;
+  min-width: 1000px;
+  overflow-x: auto;
 }
 
 .container{
