@@ -1,15 +1,14 @@
 # Alezonyth Website
 
-Website carousel interaktif yang menampilkan berbagai platform social media dengan desain yang responsif dan modern.
+Website carousel interaktif yang menampilkan berbagai platform social media dengan tampilan desktop yang konsisten di semua perangkat.
 
 ## 🚀 Fitur Utama
 
 - **Carousel Interaktif**: Slider yang menampilkan 6 platform social media
-- **Desain Responsif**: Tampilan yang optimal di desktop, tablet, dan mobile
-- **Touch Support**: Navigasi dengan gesture swipe di perangkat mobile
-- **Keyboard Navigation**: Navigasi dengan arrow keys di desktop
+- **Desktop-Only Layout**: Tampilan desktop yang konsisten di semua perangkat
+- **Fixed Layout**: Layout tidak berubah di mobile, tetap mempertahankan ukuran desktop
+- **Mobile Desktop View**: Mobile browser akan menampilkan versi desktop
 - **Animasi Smooth**: Transisi yang halus antar slide
-- **Mobile-First Design**: Dioptimalkan untuk perangkat mobile
 
 ## 📱 Platform yang Ditampilkan
 
@@ -24,12 +23,10 @@ Website carousel interaktif yang menampilkan berbagai platform social media deng
 
 - **HTML5** - Struktur website
 - **CSS3** - Styling dan animasi
-  - Media queries untuk responsivitas
-  - Flexbox/Grid layout
+  - Fixed layout (tidak responsive)
   - CSS animations
 - **Vanilla JavaScript** - Interaktivitas
   - Event listeners
-  - Touch/swipe detection
   - DOM manipulation
 - **Font Awesome** - Icon navigation
 
@@ -38,7 +35,7 @@ Website carousel interaktif yang menampilkan berbagai platform social media deng
 ```
 /
 ├── index.html          # File utama HTML
-├── styles.css          # Styling dan responsivitas
+├── styles.css          # Styling dengan layout fixed
 ├── script.js           # JavaScript interaktivitas
 ├── favicon.ico         # Icon website
 └── README.md           # Dokumentasi ini
@@ -67,42 +64,37 @@ npx http-server
 ```
 
 ### Opsi 4: Direct File
-Cukup buka file `index.html` langsung di browser (beberapa fitur mungkin terbatas)
+Cukup buka file `index.html` langsung di browser
 
-## 📱 Responsivitas
+## 📱 Desktop-Only Design
 
-Website ini mendukung berbagai ukuran layar:
+Website ini menggunakan **fixed layout** yang tidak berubah di berbagai ukuran layar:
 
-- **Desktop** (> 768px): Layout penuh dengan carousel besar
-- **Tablet** (768px - 480px): Layout medium dengan ukuran sedang
-- **Mobile** (480px - 320px): Layout compact untuk smartphone
-- **Small Mobile** (< 320px): Layout ultra-compact
+- **Desktop**: Layout penuh dengan ukuran 1000px × 500px
+- **Mobile**: Tetap menampilkan layout desktop (1000px × 500px)
+- **Tablet**: Tetap menampilkan layout desktop (1000px × 500px)
 
-### Breakpoints CSS:
-- `@media screen and (max-width: 768px)` - Tablet
-- `@media screen and (max-width: 480px)` - Mobile
-- `@media screen and (max-width: 320px)` - Small mobile
+### Fitur Desktop pada Mobile:
+- Viewport di-set ke 1000px width
+- User tidak bisa zoom in/out
+- Layout tetap mempertahankan proporsi desktop
+- Mobile browser akan menampilkan versi desktop
 
 ## 🎮 Cara Penggunaan
 
-### Desktop:
+### Semua Perangkat:
 - Klik tombol panah kiri/kanan untuk navigasi
-- Gunakan keyboard arrow keys (← →)
-- Scroll mouse untuk navigasi
-
-### Mobile:
-- Swipe left/right untuk navigasi carousel
-- Tap tombol panah untuk navigasi manual
-- Touch gestures didukung penuh
+- Di mobile, user perlu scroll horizontal untuk melihat keseluruhan konten
+- Layout tetap sama persis seperti di desktop
 
 ## 🎨 Fitur Desain
 
+- **Fixed container**: 1000px × 500px (tidak berubah)
 - **Background gradient** dengan warna abu-abu modern
 - **Box shadow** untuk efek depth
 - **Smooth transitions** antar slide
 - **Hover effects** pada navigation buttons
-- **Responsive images** dengan background-size cover
-- **Typography** yang scalable dan readable
+- **Fixed positioning** untuk layout yang konsisten
 
 ## 🔧 Kustomisasi
 
@@ -136,10 +128,10 @@ Edit file `styles.css` dan modifikasi:
 - ✅ Firefox
 - ✅ Safari
 - ✅ Edge
-- ✅ Mobile browsers (iOS Safari, Chrome Mobile)
+- ✅ Mobile browsers (iOS Safari, Chrome Mobile) - akan tampil desktop view
 - ✅ Opera
 
-## 📝 Lisensi
+## 📝 About
 
 Website ini dibuat untuk keperluan pribadi/portfolio.
 
@@ -158,7 +150,7 @@ Dibuat oleh **Alezonyth** / **MaBroJati**
 
 ---
 
-**Catatan**: Website ini dioptimalkan untuk performa dan user experience di semua perangkat. Pastikan untuk test di berbagai ukuran layar untuk hasil terbaik.
+**Catatan**: Website ini menggunakan fixed layout 1000px × 500px yang akan tampil sama persis di semua perangkat. Mobile user perlu scroll horizontal untuk melihat keseluruhan konten.
 
 ---
 
