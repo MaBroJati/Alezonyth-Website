@@ -32,7 +32,7 @@ Website link-in-bio sederhana untuk menemukan channel YouTube dan media sosial A
 
 ```
 /
-├── AlznythCH.html    # Halaman utama, termasuk CSS dan JavaScript
+├── index.html    # Halaman utama, termasuk CSS dan JavaScript
 ├── favicon.png       # Favicon dan ikon AL ukuran 800 × 800
 └── README.md         # Dokumentasi proyek
 ```
@@ -43,16 +43,16 @@ Website link-in-bio sederhana untuk menemukan channel YouTube dan media sosial A
 
 1. Buka folder proyek di VS Code.
 2. Install extension **Live Server** jika belum tersedia.
-3. Klik kanan `AlznythCH.html`.
+3. Klik kanan `index.html`.
 4. Pilih **Open with Live Server**.
 
 ### Opsi 2: Buka Langsung
 
-Buka `AlznythCH.html` di browser. Tidak perlu instalasi atau proses build. Koneksi internet diperlukan untuk memuat Google Fonts.
+Buka `index.html` di browser. Tidak perlu instalasi atau proses build. Koneksi internet diperlukan untuk memuat Google Fonts.
 
 ## 🎨 Kustomisasi
 
-Di dalam `AlznythCH.html`, cari objek `CHANNEL` pada bagian script untuk mengubah konten:
+Di dalam `index.html`, cari objek `CHANNEL` pada bagian script untuk mengubah konten:
 
 - `name`, `initials`, `handle`, dan `tagline` — identitas channel.
 - `ticker` — teks yang tampil di bagian berjalan.
@@ -61,7 +61,7 @@ Di dalam `AlznythCH.html`, cari objek `CHANNEL` pada bagian script untuk menguba
 
 Ikon link yang tersedia: `youtube`, `play`, `instagram`, `tiktok`, `chat`, `bag`, dan `mail`.
 
-Untuk menggunakan gambar favicon, simpan `favicon.png` di folder yang sama dengan `AlznythCH.html`.
+Untuk menggunakan gambar favicon, simpan `favicon.png` di folder yang sama dengan `index.html`.
 
 ## 🌐 Dukungan Browser
 
