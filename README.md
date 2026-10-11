@@ -69,4 +69,6 @@ Dapat digunakan pada browser modern seperti Chrome, Firefox, Safari, dan Edge. T
 
 ## 📝 Lisensi
 
-Website ini dibuat untuk keperluan pribadi.
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
