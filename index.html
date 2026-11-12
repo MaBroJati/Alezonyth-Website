@@ -396,7 +396,6 @@
     try { localStorage.setItem("theme", next); } catch (e) {}
     var calm = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (!document.startViewTransition || calm) { applyTheme(next); return; }
-    /* Tema baru melebar seperti lingkaran dari posisi tombol. */
     var r = this.getBoundingClientRect();
     var x = r.left + r.width / 2, y = r.top + r.height / 2;
     var end = Math.hypot(Math.max(x, innerWidth - x), Math.max(y, innerHeight - y));
